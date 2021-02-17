@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/runtime:3.1
+FROM  mcr.microsoft.com/dotnet/runtime
 
 COPY app/bin/Release/netcoreapp5.0/publish/ app/
 
